@@ -1,6 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* Home Style */
 .home{
-    height: 614px;
+    height: 624px;
+}
+
+.section_one_home{
+    height: 317px;
+    background-image: url('asset/home_one.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header_home{
+/* background-color: rgba(175,157,90,1); */
+background-color: rgba(175, 157, 90, 0.6);
+height: 70px;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+display: flex;
+}
+
+.Hamburger_icon_home{
+width: 40px;
+height: 30px;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.ul_home{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.li_home{
+ 
+}
+.a_home{
+    text-decoration: none;
+    color: white;
+}
+
+.p_one_home{
+    text-align: center;
+    width:331px ;
+    padding-left:950px ;
+    padding-top: 125px;
+    font-weight: 200px;
+    font-size: 32px;
+}
+
+.line_home{
+    position: absolute;
+    top: 250px;
+    right: 40px;
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    /* margin-left:1000px ;
+    margin-top: 150px; */
+}
+
+.logo_home{
+    width: 220px;
+    height: 230px;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    /* text-align: center; */
+}
+
+.section_two_home{
+    height: 307px;
+    background-color:rgba(36,43,46,1);
 }
 
 
