@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Home Style */
 .home{
     height: 614px;
@@ -13,6 +17,7 @@
 /* Portfolio Style */
 .portfolio{
     height: 307px;
+    background-color: #D7DADF;
 }
 
 
