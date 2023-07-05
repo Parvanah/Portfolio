@@ -1,6 +1,17 @@
+@font-face {
+    font-family: corbel;
+    src: url('./asset/corbel-font/CORBELB.TTF');
+}
+@font-face {
+    /* font for titles*/
+    font-family: ASTRO;
+    src: url('./asset/Astro-Font/Futuristic Font/Astro.ttf');
+}
 *{
     margin: 0px;
     padding: 0px;
+    /* font family fo all pages*/
+    font-family: corbel;
 }
 /* Home Style */
 .home{
@@ -52,7 +63,7 @@ margin-top: 20px;
 
 .p_one_home{
     text-align: center;
-    width:331px ;
+    /* width:331px ; */
     padding-left:950px ;
     padding-top: 125px;
     font-weight: 200px;
@@ -93,8 +104,134 @@ margin-top: 20px;
 
 /* Portfolio Style */
 .portfolio{
-    height: 307px;
+    height: 350px;
     background-color: #D7DADF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.portfolio .title{
+padding-left: 3%;
+}
+.portfolio .title h6{
+    font-family: ASTRO;
+    font-weight: normal;
+    
+    
+}
+.portfolio .title p{
+    font-size: 10px;
+    font-family: ASTRO;
+    margin-top: -20px;
+}
+.portfolio .inside-portifolio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio .inside-portifolio #projects {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+.portfolio .inside-portifolio #projects li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+     */
+     padding: 10px;
+}
+.portfolio .inside-portifolio #projects li div{
+    margin-top: 20px;
+    background-image: radial-gradient(#242B2E ,#6C7173);
+    color: #FFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border-radius: 20px; */
+}
+.portfolio .inside-portifolio #projects li div p{
+    font-size: 90%;
+}
+.portfolio .inside-portifolio #projects li div a{
+    transition: all 0.5s;
+   font-size: 100%;
+   color: #FFF;
+   text-decoration: none;
+}
+.portfolio .inside-portifolio #projects li div a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #AF9D5A;
+}
+.portfolio .inside-portifolio #projects li video{
+    border-radius: 50%;
+    margin: auto 25px;
+    transition: all 0.5s;
+    transition-timing-function: ease;  
+}
+.portfolio .inside-portifolio #projects li video::-webkit-media-controls-play-button{
+ background-color: #AF9D5A;
+ border-radius: 50%;
+ 
+}
+.portfolio .inside-portifolio #projects li video::-moz-media-controls-play-button {
+    background-color: #AF9D5A;
+    border-radius: 50%;
+
+}
+.portfolio .inside-portifolio #projects li video:hover{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 0%;
+}
+.portfolio .inside-portifolio #projects li video:fullscreen{
+    border-radius: 0;
+}
+.portfolio .inside-portifolio .arrow{
+    flex: 1.5;
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+.portfolio .inside-portifolio .arrow div{
+    background: #5D5847;
+        padding: 5% 2%;
+        /* margin: 3%; */
+        /* height: 30%; */
+        display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        border-radius: 20%;
+        transition: all 0.5s;
+        cursor: pointer;
+}
+.portfolio .inside-portifolio .arrow div:hover{
+    background-color: #D7DADF;
+    border: 2px solid #5D5847 ;
+}
+
+.portfolio .inside-portifolio .arrow .icon{
+    height: 50%;
+    width: 50%;
 }
 
 

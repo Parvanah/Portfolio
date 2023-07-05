@@ -1,3 +1,46 @@
 {
-  "projects": [{ "name": "Larkhods", "links": "" }]
+  "projects": [
+    {
+      "name": "Larkhods",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/Larkhod web.mp4",
+      "description": "this is Larkhod and eduactional platform for afghan school students",
+      "image": "./asset/PNG Format.png"
+    },
+    {
+      "name": "The LOOk UP",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/larkhode app.mp4",
+      "description": "this is look up , an application for email detection and finding its location",
+      "image": "./asset/PNG Format.png"
+    },
+    {
+      "name": "Mobile App",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/Larkhod web.mp4",
+      "description": "this is Larkhod and eduactional platform for afghan school students",
+      "image": "./asset/PNG Format.png"
+    },
+    {
+      "name": "Job Website",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/larkhode app.mp4",
+      "description": "this is look up , an application for email detection and finding its location",
+      "image": "./asset/PNG Format.png"
+    },
+    {
+      "name": "afghanistan",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/Larkhod web.mp4",
+      "description": "this is Larkhod and eduactional platform for afghan school students",
+      "image": "./asset/PNG Format.png"
+    },
+    {
+      "name": "Kandahr Uni",
+      "link": "https://github.com/Parvanah/Larkhod",
+      "vedio": "./asset/larkhode app.mp4",
+      "description": "this is look up , an application for email detection and finding its location",
+      "image": "./asset/PNG Format.png"
+    }
+  ]
 }
