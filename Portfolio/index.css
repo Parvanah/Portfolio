@@ -49,19 +49,22 @@
 
 
 .p_one_home{
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     font-style: normal;
-    margin-top: 10px;
-    margin-left: 10px;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    font-family: ASTRO;
 }
 
 .p_two_home{
     font-size: 25px;
-    font-weight: 25px;
     font-style: normal;
-    margin-top: 50px;
-    margin-left: -230px;
+    position: absolute;
+    top: 50px;
+    left: 150px; 
+    font-family: corbel;
 }
 
 .buttun_home{
@@ -71,33 +74,34 @@
     border: 2px solid #E2E2E2;
     width: 110px;
     height: 50px;
-    margin-top: 23px;
-    margin-left: 720px;
+    position: absolute;
+    top:24px;
+    right: 30px;
 }
 
 .p_three_home{
     color: rgb(255, 255, 255);
-    font-size: 75px;
-    font-weight: 65px;
+    font-size: 65px;
+    font-weight: bold;
     font-style: normal;
     font-weight: bold;
-    width: 600px;
     padding-left: 60px;
     padding-top: 110px;
     font-family: Ubuntu, sans-serif;
     line-height: 80px;
+    font-family: ASTRO;
 }
 
 .p_four_home{
     color:rgb(255, 255, 255);
     font-style: normal;
-    width: 780px;
     padding-left: 60px;
     padding-top: 30px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 39px;
+    font-family: corbel;
 }
 
 .images_home{
