@@ -3,7 +3,7 @@ var projects;
 var portfolio = document.getElementById("projects");
 const scrollRight = document.getElementById("arrowRight");
 const scrollLeft = document.getElementById("arrowLeft");
-fetch("../Portfolio_List.json")
+fetch("./Portfolio_List.json")
   .then((res) => res.json())
   .then((data) => setData(data))
   .catch((error) => console.log(error));
