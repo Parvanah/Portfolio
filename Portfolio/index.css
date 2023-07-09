@@ -90,42 +90,54 @@
     font-family: Ubuntu, sans-serif;
     line-height: 80px;
     font-family: ASTRO;
+    overflow: hidden;
 }
 
 .p_four_home{
     color:rgb(255, 255, 255);
     font-style: normal;
     padding-left: 60px;
+    padding-right: 300px;
     padding-top: 30px;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
     font-size: 25px;
     line-height: 39px;
     font-family: corbel;
+    overflow: hidden;
 }
 
 .images_home{
     display: inline-block;
     position: absolute;
-    top: 360px;
+    top: 420px;
     right: 10px;
  }
  
  .ig_home{
      display: block;
-     width: 42px;
-     height: 35px;
-     margin-bottom: 9px;
+     width: 30px;
+     height: 25px;
+     margin-bottom: 11px;
      margin-right: 10px;
+     
  }
- .igg_home{
+
+ .line {
+    position: absolute;
+    left: 13px;
+    top:270px;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 70px;
+  }
+ /* .igg_home{
     display: block;
     width: 30px;
     height: 60px;
     position: absolute;
     left: 10px;
-    top:340px;
-}
+    top:280px;
+} */
+
 
 
 /* About Us Style */
