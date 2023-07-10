@@ -10,13 +10,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* font family fo all pages*/
+    /* font family to all pages*/
     font-family: corbel;
 }
 /* Home Style */
-.home{
-
-}
 
 .all_home{
     height: 760px;
@@ -77,7 +74,10 @@
     position: absolute;
     top:24px;
     right: 30px;
+    font-size: 18px;
+    border-radius: 15px;
 }
+
 
 .p_three_home{
     color: rgb(255, 255, 255);
@@ -129,16 +129,263 @@
     border-left: 2px solid rgb(255, 255, 255);
     height: 70px;
   }
- /* .igg_home{
-    display: block;
-    width: 30px;
-    height: 60px;
-    position: absolute;
-    left: 10px;
-    top:280px;
-} */
 
+ @media screen and (max-width:360px)and (min-width:100px){
+    .header_home{
+        background-color: rgb(17, 17, 17,0.5);
+        color: rgb(255, 255, 255);
+        height: 76px;
+        display: flex;
+     }
 
+    .logo_home{
+        width: 65px;
+        height: 65px;
+        margin-left: 15px;
+        margin-top: 6px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 11px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 10px;
+        left: 85px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 11px;
+        font-style: normal;
+        position: absolute;
+        top: 40px;
+        left: 85px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 70px;
+        height: 30px;
+        position: absolute;
+        top:24px;
+        right: 15px;
+        font-size: 10px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 120px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 40px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 80px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+    
+ }
+ @media screen and (max-width:576px)and (min-width:360px){
+    .header_home{
+        background-color: rgb(17, 17, 17,0.5);
+        color: rgb(255, 255, 255);
+        height: 76px;
+        display: flex;
+     }
+
+    .logo_home{
+        width: 65px;
+        height: 65px;
+        margin-left: 15px;
+        margin-top: 6px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        left: 85px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 15px;
+        font-style: normal;
+        position: absolute;
+        top: 40px;
+        left: 85px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 70px;
+        height: 30px;
+        position: absolute;
+        top:24px;
+        right: 15px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 120px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 55px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 80px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        line-height: 35px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:768px)and (min-width:576px){
+    .logo_home{
+        width: 85px;
+        height: 85px;
+        margin-left: 50px;
+        margin-top: 5px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 1px;
+        left: 150px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 20px;
+        font-style: normal;
+        position: absolute;
+        top: 50px;
+        left: 150px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top:24px;
+        right: 30px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 60px;
+        padding-top: 110px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 80px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 100px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:992px)and (min-width:768px){
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 150px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:1200px)and (min-width:992px){
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 200px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
 
 /* About Us Style */
 .about_us{
