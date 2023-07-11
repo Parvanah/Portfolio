@@ -1,89 +1,391 @@
+@font-face {
+    font-family: corbel;
+    src: url('./asset/corbel-font/CORBELB.TTF');
+}
+@font-face {
+    /* font for titles*/
+    font-family: ASTRO;
+    src: url('./asset/Astro-Font/Futuristic Font/Astro.ttf');
+}
 *{
     margin: 0px;
     padding: 0px;
+    /* font family to all pages*/
+    font-family: corbel;
 }
 /* Home Style */
-.home{
-    height: 624px;
-}
 
-.section_one_home{
-    height: 317px;
-    background-image: url('asset/home_one.png');
+.all_home{
+    height: 760px;
+    background-image: url('asset/logp.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+}
+
+.section_home{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 760px;
+   
 }
 
 .header_home{
-/* background-color: rgba(175,157,90,1); */
-background-color: rgba(175, 157, 90, 0.6);
-height: 70px;
-position: absolute;
-top: 0px;
-left: 0px;
-right: 0px;
-display: flex;
-}
-
-.Hamburger_icon_home{
-width: 40px;
-height: 30px;
-margin-left: 50px;
-margin-top: 20px;
-}
-
-.ul_home{
-    width: 350px;
+    background-color: rgb(17, 17, 17,0.5);
+    color: rgb(255, 255, 255);
+    height: 96px;
     display: flex;
-    justify-content: space-between;
-    list-style-type: none; 
-    margin-left: 15px;
-    font-size: 20px;
-    margin-top: 22px;
+ }
+
+ .logo_home{
+    width: 85px;
+    height: 85px;
+    margin-left: 50px;
+    margin-top: 5px; 
+  
 }
 
-.li_home{
- 
-}
-.a_home{
-    text-decoration: none;
-    color: white;
-}
 
 .p_one_home{
-    text-align: center;
-    width:331px ;
-    padding-left:950px ;
-    padding-top: 125px;
-    font-weight: 200px;
-    font-size: 32px;
-}
-
-.line_home{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
     position: absolute;
-    top: 250px;
-    right: 40px;
-    width: 400px;
-    height: 2px;
-    background-color: black;
-    /* margin-left:1000px ;
-    margin-top: 150px; */
+    top: -10px;
+    left: 150px;
+    font-family: ASTRO;
 }
 
-.logo_home{
-    width: 220px;
-    height: 230px;
+.p_two_home{
+    font-size: 25px;
+    font-style: normal;
     position: absolute;
-    left: 550px;
-    top: 200px;
-    /* text-align: center; */
+    top: 50px;
+    left: 150px; 
+    font-family: corbel;
 }
 
-.section_two_home{
-    height: 307px;
-    background-color:rgba(36,43,46,1);
+.buttun_home{
+    background: #E2E2E2;
+    border-radius: 0;
+    color: #111827;
+    border: 2px solid #E2E2E2;
+    width: 110px;
+    height: 50px;
+    position: absolute;
+    top:24px;
+    right: 30px;
+    font-size: 18px;
+    border-radius: 15px;
 }
 
+
+.p_three_home{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 110px;
+    font-family: Ubuntu, sans-serif;
+    line-height: 80px;
+    font-family: ASTRO;
+    overflow: hidden;
+}
+
+.p_four_home{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    padding-left: 60px;
+    padding-right: 300px;
+    padding-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    line-height: 39px;
+    font-family: corbel;
+    overflow: hidden;
+}
+
+.images_home{
+    display: inline-block;
+    position: absolute;
+    top: 420px;
+    right: 10px;
+ }
+ 
+ .ig_home{
+     display: block;
+     width: 30px;
+     height: 25px;
+     margin-bottom: 11px;
+     margin-right: 10px;
+     
+ }
+
+ .line {
+    position: absolute;
+    left: 13px;
+    top:270px;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 70px;
+  }
+
+ @media screen and (max-width:360px)and (min-width:100px){
+    .header_home{
+        background-color: rgb(17, 17, 17,0.5);
+        color: rgb(255, 255, 255);
+        height: 76px;
+        display: flex;
+     }
+
+    .logo_home{
+        width: 65px;
+        height: 65px;
+        margin-left: 15px;
+        margin-top: 6px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 11px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 10px;
+        left: 85px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 11px;
+        font-style: normal;
+        position: absolute;
+        top: 40px;
+        left: 85px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 70px;
+        height: 30px;
+        position: absolute;
+        top:24px;
+        right: 15px;
+        font-size: 10px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 120px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 40px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 80px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+    
+ }
+ @media screen and (max-width:576px)and (min-width:360px){
+    .header_home{
+        background-color: rgb(17, 17, 17,0.5);
+        color: rgb(255, 255, 255);
+        height: 76px;
+        display: flex;
+     }
+
+    .logo_home{
+        width: 65px;
+        height: 65px;
+        margin-left: 15px;
+        margin-top: 6px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        left: 85px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 15px;
+        font-style: normal;
+        position: absolute;
+        top: 40px;
+        left: 85px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 70px;
+        height: 30px;
+        position: absolute;
+        top:24px;
+        right: 15px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 120px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 55px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 80px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        line-height: 35px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:768px)and (min-width:576px){
+    .logo_home{
+        width: 85px;
+        height: 85px;
+        margin-left: 50px;
+        margin-top: 5px; 
+      
+    }
+    
+    
+    .p_one_home{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 1px;
+        left: 150px;
+        font-family: ASTRO;
+    }
+    
+    .p_two_home{
+        font-size: 20px;
+        font-style: normal;
+        position: absolute;
+        top: 50px;
+        left: 150px; 
+        font-family: corbel;
+    }
+    
+    .buttun_home{
+        background: #E2E2E2;
+        border-radius: 0;
+        color: #111827;
+        border: 2px solid #E2E2E2;
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top:24px;
+        right: 30px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    
+    
+    .p_three_home{
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 60px;
+        padding-top: 110px;
+        font-family: Ubuntu, sans-serif;
+        line-height: 80px;
+        font-family: ASTRO;
+        overflow: hidden;
+    }
+    
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 100px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:992px)and (min-width:768px){
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 150px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
+ @media screen and (max-width:1200px)and (min-width:992px){
+    .p_four_home{
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        padding-left: 60px;
+        padding-right: 200px;
+        padding-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        line-height: 39px;
+        font-family: corbel;
+        overflow: hidden;
+    }
+ }
 
 /* About Us Style */
 .about_us{
@@ -93,8 +395,134 @@ margin-top: 20px;
 
 /* Portfolio Style */
 .portfolio{
-    height: 307px;
+    height: 350px;
     background-color: #D7DADF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.portfolio .title{
+padding-left: 3%;
+}
+.portfolio .title h6{
+    font-family: ASTRO;
+    font-weight: normal;
+    
+    
+}
+.portfolio .title p{
+    font-size: 10px;
+    font-family: ASTRO;
+    margin-top: -20px;
+}
+.portfolio .inside-portifolio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio .inside-portifolio #projects {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+.portfolio .inside-portifolio #projects li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+     */
+     padding: 10px;
+}
+.portfolio .inside-portifolio #projects li div{
+    margin-top: 20px;
+    background-image: radial-gradient(#242B2E ,#6C7173);
+    color: #FFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border-radius: 20px; */
+}
+.portfolio .inside-portifolio #projects li div p{
+    font-size: 90%;
+}
+.portfolio .inside-portifolio #projects li div a{
+    transition: all 0.5s;
+   font-size: 100%;
+   color: #FFF;
+   text-decoration: none;
+}
+.portfolio .inside-portifolio #projects li div a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #AF9D5A;
+}
+.portfolio .inside-portifolio #projects li video{
+    border-radius: 50%;
+    margin: auto 25px;
+    transition: all 0.5s;
+    transition-timing-function: ease;  
+}
+.portfolio .inside-portifolio #projects li video::-webkit-media-controls-play-button{
+ background-color: #AF9D5A;
+ border-radius: 50%;
+ 
+}
+.portfolio .inside-portifolio #projects li video::-moz-media-controls-play-button {
+    background-color: #AF9D5A;
+    border-radius: 50%;
+
+}
+.portfolio .inside-portifolio #projects li video:hover{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 0%;
+}
+.portfolio .inside-portifolio #projects li video:fullscreen{
+    border-radius: 0;
+}
+.portfolio .inside-portifolio .arrow{
+    flex: 1.5;
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+.portfolio .inside-portifolio .arrow div{
+    background: #5D5847;
+        padding: 5% 2%;
+        /* margin: 3%; */
+        /* height: 30%; */
+        display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        border-radius: 20%;
+        transition: all 0.5s;
+        cursor: pointer;
+}
+.portfolio .inside-portifolio .arrow div:hover{
+    background-color: #D7DADF;
+    border: 2px solid #5D5847 ;
+}
+
+.portfolio .inside-portifolio .arrow .icon{
+    height: 50%;
+    width: 50%;
 }
 
 
