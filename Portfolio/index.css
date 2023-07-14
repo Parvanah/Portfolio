@@ -212,6 +212,59 @@ font-family: Corbel;
 .test_stars{
     margin-top: 80px;
 }
+@media screen and (max-width:360px)and (min-width:100px){
+    .dots{
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+    .dot{
+        width: 30px;
+        height: 30px;
+    }
+    .test_stars{
+        margin-left: 15px;
+    }
+    .text{
+    margin-left: 100px ;
+    margin-right: 100px ;
+    margin-top: 2%;
+    color: rgba(175,157,90,1);
+    text-align: left !important;
+    letter-spacing: 0.02px;
+    font-size: 20px;
+    font-family: Corbel;
+    }
+    .test_username{
+     text-align: center;
+    }
+    .test_comment{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .profile_test{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .test_stars{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:576px)and (min-width:360px){
+
+}
+
+@media screen and (max-width:768px)and (min-width:576px) {
+
+}
+@media screen and (max-width:992px)and (min-width:768px) {
+
+}
+
+@media screen and (max-width:1200px)and (min-width:992px) {
+
+}
 
 
 /* Contact Us Style */
