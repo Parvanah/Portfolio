@@ -1163,11 +1163,206 @@ padding-left: 3%;
 
 /* Testemonial Style */
 .testemonial{
-    height: 614px;
+    height: 550px;
+    background-color: #101213;
+}
+.testemonial_header{
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.testemonial_img{
+    background-color: #a2a3a5;
+    height: 300px;
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 7%;
+}
+.dots{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+}
+.test_stars{
+    margin-left: 15px;
+}
+.text{
+margin-left: 150px ;
+margin-right: 150px ;
+margin-top: 2%;
+color: rgba(175,157,90,1);
+text-align: left !important;
+letter-spacing: 0.02px;
+font-size: 20px;
+font-family: Corbel;
+}
+.test_username{
+ text-align: center;
+}
+.test_comment{
+    text-align: center;
+    margin-top: 10px;
+}
+.profile_test{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.test_stars{
+    margin-top: 80px;
+}
+@media screen and (max-width:360px)and (min-width:100px){
+    .dots{
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+    .dot{
+        width: 30px;
+        height: 30px;
+    }
+    .test_stars{
+        margin-left: 15px;
+    }
+    .text{
+    margin-left: 100px ;
+    margin-right: 100px ;
+    margin-top: 2%;
+    color: rgba(175,157,90,1);
+    text-align: left !important;
+    letter-spacing: 0.02px;
+    font-size: 20px;
+    font-family: Corbel;
+    }
+    .test_username{
+     text-align: center;
+    }
+    .test_comment{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .profile_test{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .test_stars{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:576px)and (min-width:360px){
+
+}
+
+@media screen and (max-width:768px)and (min-width:576px) {
+
+}
+@media screen and (max-width:992px)and (min-width:768px) {
+
+}
+
+@media screen and (max-width:1200px)and (min-width:992px) {
+
 }
 
 
 /* Contact Us Style */
-.contact_us{
+.contact_us_page{
     height: 614px;
+    background-image: url('asset/n_2.png');
+    background-color: #101213;
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+}
+.FeedBack{
+    margin-left: 20px;
+    color: #D7DADF;
+}
+.contact_us{
+    display: block;
+    color: #D7DADF;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.p-contact, .p_feedback{
+    font-size: 20px;
+    font-family: bold;
+}
+.img_contact{
+    display: inline-block;
+    width: 4%;
+}
+.contact_buttons{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.p_feedback{
+  padding-top: 10px;
+}
+.FeedBack_form{
+    /* background-color: rgb(223, 138, 12); */
+    width: 40%;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+#name, #email{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(167, 164, 164, 0.4);
+    color: #D7DADF;
+    padding: 5px;
+    display: inline-block;
+}
+#comment{
+    height: 150px;
+    width: 318px;
+    border-radius: 20px;
+    background-color: rgba(167, 164, 164, 0.4);
+    color: #D7DADF;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+}
+.comment{
+    margin-top: 10px;
+}
+.emoji_contact{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.emojies{
+    margin-left: 70px;
+    margin-top: 1%;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+/* label{
+    display: block;
+    color: #af9d5a;
+} */
+.form_one{
+    display: inline-block;
+}
+.label_nameEmail{
+    display: flex;
+    flex-direction: row;
+    color: #af9d5a;
+}
+.email_label{
+    padding-left: 38%;
+    padding-bottom: 10px;
+}
+.comment_label{
+    color: #af9d5a;
 }
