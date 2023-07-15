@@ -1,0 +1,29 @@
+@font-face {
+    font-family: corbel;
+    src: url('./asset/corbel-font/CORBELB.TTF');
+}
+@font-face {
+    /* font for titles*/
+    font-family: ASTRO;
+    src: url('./asset/Astro-Font/Futuristic Font/Astro.ttf');
+}
+.contact_page_1{
+    background-color: rgba(175,157,90,1);
+    height: 580px;
+}
+.contact_page_1 h2{
+    position: relative;
+    font-family: corbel;
+    font-size: 25px;
+    color: darkslateblue;
+    left: 90px;
+    top: 50px;
+}
+.address_1_location {
+    position: relative;
+    font-family: ASTRO;
+    font-size: 25px;
+    color: darkslateblue;
+    left: 90px;
+    top: 50px;
+}

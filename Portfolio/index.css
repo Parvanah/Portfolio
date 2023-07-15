@@ -397,6 +397,37 @@
 /* About Us Style */
 .about_us {
     height: 307px;
+    width: 100%;
+}
+.back_about_us{
+    height: 307px;
+    background-image: url('asset/n__copy.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h1_about_us{
+    position: absolute;
+    left: 3%;
+    top: 730px;
+    color: white;
+    font-family: Astro;
+}
+.back_about_us h4{
+    position: absolute;
+    font-family: corbel;
+    color: white;
+    left: 65%;
+    width: 900px;
+    top: 790px;
+}
+.p2_about_us p{
+    font-family: corbel;
+    color: rgba(175,157,90,1);
+    position: absolute;
+    width: 1000px;
+    left: 3%;
+    top: 860px;
+    justify-content: space-between;
 }
 
 
@@ -1173,6 +1204,7 @@
         /* background-color:rgba(0,0,0, 0.1); */
     }
 
+
     .scroll-list li {
         display: flex;
         flex-direction: column;
@@ -1192,6 +1224,69 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+
+   #img {
+    width:20px;
+    margin-top:150px;
+    margin-left:30px; 
+    margin-right:30px;
+    height:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+   }
+   
+/* Location Style */
+.location{
+    font-size: 100%;
+    background: #D7DADF;
+    height: 514px;
+    background-color:rgba(36,43,46,1);
+}
+/* .side-container{
+    margin: 3rem auto;
+    max-width: calc(100%);
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(outo-fill_ minmax( 145px+  1fr));
+    gap: 1rem;
+}
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px 0px 60px 60px;
+}
+.article-card{
+    background: white;
+    border-radius: 20px;
+}
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(14,4.0,123,0.2);
+    cursor: pointer;
+}
+.article-content{
+    padding: 1rem;
+}
+.article-content .card-catagory{
+    font-size: 0.075rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1mm;
+    font-weight: 600px;
+    color: #AF9D5A;
+    display: block;
+    text-decoration: none;
+}
+.article-content .card-title{
+    margin: 1rem 0;
+    color: #224472;
+} */
 
     .p-li {
         display: flex;
