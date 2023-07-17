@@ -6,17 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?
     sensor=false"></script>
-    
+
+    <script type="text/javascript"> 
+    var map=null;
+    function showlocation(){
+        navigator.geolocation.getCurrentPosition(callback);}
+    function callback(position){
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+
+        document.getElementById('latitude').innerHTML=lat;
+        document.getElementById('longitude').innerHTML=lon;
+
+        var latLong = new google.maps.LatLong(lat,lon);
+        var marker = new google.maps.marker({
+            position:latLong
+        });
+         marker.setMap(map);
+         map.setZoom(8);
+         map.setCenter(marker.getPosition()); }
+          google.maps.event.addDomListener(window,'load',initMap);
+          function initMap(){
+            var mapOptions={
+                center:new google.maps.LatLng(0,0),
+                zoom:1,
+                mapTypeID:google.maps.mapTypeID.ROADMAP
+            };
+            map = new
+            google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+          }
+    </script> -->
 </head>
 <body>
    <div class="contact_page">
         <div class="kabul">
             <h1 class="address_1_location">KABUL</h1>
-            <h2> PHONE : </h2>
-            <h2> EMAIL : </h2>
+            <h2> PHONE  :  0711370113 </h2>
+            <h2> WHATSAPP  :  0711370113 </h2>
+            <h2> EMAIL : sadatshamsia2@gmail.com</h2>
         </div>
+        <!-- <input type="button" value="show location"
+        onclick="javascript:showlocation()"/><br>
+        latitude:<span id="latitude"></span><br/>
+        <br/> <br/>
+        <div id="map-canvas"> -->
    </div>
 </body>
 </html>
