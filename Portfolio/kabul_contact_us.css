@@ -13,10 +13,12 @@
 }
 .contact_page h2{
     position: relative;
+    display: flex;
     font-family: corbel;
     font-size: 25px;
     color: darkslateblue;
-    left: 90px;
+    padding-left: 90px;
+    /* left: 90px; */
     top: 50px;
 }
 .address_1_location {
@@ -24,6 +26,7 @@
     font-family: ASTRO;
     font-size: 25px;
     color: darkslateblue;
-    left: 90px;
+    padding-left: 90px;
+    /* left: 90px; */
     top: 50px;
 }
