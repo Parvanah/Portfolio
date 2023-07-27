@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "profile_img": "./asset/profile1.jpg",
+      "name": "fathima",
+      "comments": "its so beautiful and interstimg site, i like it,its so beautiful and interstimg site, i like it",
+      "likes": 5
+    },
+    {
+      "id": 2,
+      "profile_img": "./asset/profile2.jpg",
+      "name": "khalida",
+      "comments": "the most popular software development i ever seen but ther are something missed that you should do it",
+      "likes": 12
+    },
+    {
+      "id": 3,
+      "profile_img": "./asset/profile3.jpg",
+      "name": "sahar",
+      "comments": "totally its intersting site,totally its intersting site ",
+      "likes": 10
+    },
+    {
+      "id": 4,
+      "profile_img": "./asset/profile1.jpg",
+      "name": "durdana",
+      "comments": "its so beautiful and interstimg site, i like it,its so beautiful and interstimg site, i like it",
+      "likes": 5
+    },
+    {
+      "id": 5,
+      "profile_img": "./asset/profile2.jpg",
+      "name": "parwana",
+      "comments": "the most popular software development i ever seen but ther are something missed that you should do it",
+      "likes": 12
+    },
+    {
+      "id": 6,
+      "profile_img": "./asset/profile3.jpg",
+      "name": "nooria",
+      "comments": "totally its intersting site,totally its intersting site,totally its intersting site ",
+      "likes": 10
+    }
+  ]
+}
