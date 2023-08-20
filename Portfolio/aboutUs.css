@@ -1,0 +1,53 @@
+/* About Us Style */
+.back_about_us {
+    height: 20%;
+    /* width: 100%; */
+    /* height: 307px; */
+    background-image: url('asset/n__copy.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back_about_us .top_about_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back_about_us .top_about_us .h1_about_us {
+    /* position: absolute;
+    left: 3%;
+    top: 730px; */
+    /* margin-left: 20px; */
+    color: white;
+    font-family: ASTRO;
+    font-size: 100%;
+    width: 150px;
+    flex: 1;
+}
+
+.back_about_us .top_about_us h4 {
+    /* position: absolute;
+    /* font-family: corbel; */
+    color: white;
+    /*  left: 65%;
+    width: 900px;
+    top: 790px; */
+    flex: 0.9;
+}
+
+.back_about_us .p2_about_us p {
+    /* font-family: corbel; */
+    margin-top: 5%;
+    color: rgba(175, 157, 90, 1);
+    font-size: 100%;
+    /* position: absolute; */
+    width: 80%
+        /* left: 3%;
+    top: 860px; */
+        /* justify-content: space-between; */
+}
