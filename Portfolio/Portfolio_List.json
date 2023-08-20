@@ -1,46 +1,36 @@
 {
   "projects": [
     {
-      "name": "Larkhods",
-      "link": "https://github.com/Parvanah/Larkhod",
+      "name": "Meditaciones Diarias",
+      "link": "https://abdul-qadir-portfolio.web.app/",
       "vedio": "./asset/Larkhod web.mp4",
-      "description": "this is Larkhod and eduactional platform for afghan school students",
-      "image": "./asset/PNG Format.png"
+      "description": "This is a free app that allows you to listen to hundreds of meditations, ranging from 15 to 30 minutes in duration. I have develop this one for BeeCode.",
+      "technologies": "#react , #react native , #mongodb , #dashboard , #Node js",
+      "image": "./asset/med-app.cc7702ddeedc54a3ceef.png"
     },
     {
-      "name": "The LOOk UP",
+      "name": "iSmile",
+      "link": "https://abdul-qadir-portfolio.web.app/",
+      "vedio": "./asset/larkhode app.mp4",
+      "description": "This is a mobile app that allows you to control your meditation, get quotes and schedule meditation, I have develop this one for BeeCode.",
+      "technologies": "#react , #react native , #mongodb , #dashboard , #Node js",
+      "image": "./asset/iSmile.png"
+    },
+    {
+      "name": "Youth Zone | Final Year Project",
+      "link": "https://abdul-qadir-portfolio.web.app/",
+      "vedio": "./asset/Larkhod web.mp4",
+      "description": "This is a mobile app with an advanced web dashboard where users can make friends, chat with friends, join competitions, challenge friends, enroll in free courses, and much more. I am looking forward to finding a sponsor for this project and making it live. Feel free to contact me if you are interested! :)",
+      "technologies": "#react , #react native , #mongodb , #dashboard , #Node js",
+      "image": "./asset/Youth Zone.png"
+    },
+    {
+      "name": "Larkhod Educatiopnal Website and mobile Application",
       "link": "https://github.com/Parvanah/Larkhod",
       "vedio": "./asset/larkhode app.mp4",
-      "description": "this is look up , an application for email detection and finding its location",
-      "image": "./asset/PNG Format.png"
-    },
-    {
-      "name": "Mobile App",
-      "link": "https://github.com/Parvanah/Larkhod",
-      "vedio": "./asset/Larkhod web.mp4",
-      "description": "this is Larkhod and eduactional platform for afghan school students",
-      "image": "./asset/PNG Format.png"
-    },
-    {
-      "name": "Job Website",
-      "link": "https://github.com/Parvanah/Larkhod",
-      "vedio": "./asset/larkhode app.mp4",
-      "description": "this is look up , an application for email detection and finding its location",
-      "image": "./asset/PNG Format.png"
-    },
-    {
-      "name": "afghanistan",
-      "link": "https://github.com/Parvanah/Larkhod",
-      "vedio": "./asset/Larkhod web.mp4",
-      "description": "this is Larkhod and eduactional platform for afghan school students",
-      "image": "./asset/PNG Format.png"
-    },
-    {
-      "name": "Kandahr Uni",
-      "link": "https://github.com/Parvanah/Larkhod",
-      "vedio": "./asset/larkhode app.mp4",
-      "description": "this is look up , an application for email detection and finding its location",
-      "image": "./asset/PNG Format.png"
+      "description": "This is an education platform that is developed through it Afghan school students can learn and access all school books",
+      "technologies": "#react , #react native , #mongodb , #Node js",
+      "image": "./asset/Larkhoad.png"
     }
   ]
 }
